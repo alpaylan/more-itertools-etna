@@ -45,3 +45,22 @@ venv/
 
 # Ruff
 .ruff_cache/
+
+# etna-ify additions
+progress.jsonl
+.hegel/
+.pytest_cache/
+etna/__pycache__/
+etna/.venv/
+etna/dist/
+etna/*.egg-info/
+/.hegel
+/etna.log
+/progress.jsonl
+/.marauders
+/uv.lock
+/etna/.venv
+/etna/etna.log
+/etna/.hypothesis
+__pycache__/
+*.egg-info/

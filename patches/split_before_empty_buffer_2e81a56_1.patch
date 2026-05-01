@@ -1,0 +1,14 @@
+diff --git a/more_itertools/more.py b/more_itertools/more.py
+index 737b07d..3899499 100755
+--- a/more_itertools/more.py
++++ b/more_itertools/more.py
+@@ -1619,8 +1619,7 @@ def split_before(iterable, pred, maxsplit=-1):
+             buf = []
+             maxsplit -= 1
+         buf.append(item)
+-    if buf:
+-        yield buf
++    yield buf
+ 
+ 
+ def split_after(iterable, pred, maxsplit=-1):
