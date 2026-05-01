@@ -1,6 +1,7 @@
 name = "more-itertools"
 description = "Pure-Python iterator utilities — bug fixes mined from upstream history."
 language = "python"
+strategies = ["hypothesis", "crosshair"]
 crate = "more-itertools"
 base_commit = "bd8475cc1e9b2efdbc055ab4af4d4693a9c5cb7a"
 
