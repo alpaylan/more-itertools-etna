@@ -32,16 +32,16 @@ Total mutations: 8
 
 ## Framework Coverage
 
-| Property | proptest | quickcheck | crabcheck | hegel |
-|----------|---------:|-----------:|----------:|------:|
-| `ExactlyNRejectsNegative` | ✓ | ✓ | ✓ | ✓ |
-| `IterateStopsOnStopIteration` | ✓ | ✓ | ✓ | ✓ |
-| `LastWithNoneReversed` | ✓ | ✓ | ✓ | ✓ |
-| `NumericRangeSliceNegativeStep` | ✓ | ✓ | ✓ | ✓ |
-| `NumericRangeReversedHandlesEmpty` | ✓ | ✓ | ✓ | ✓ |
-| `ProductIndexAcceptsIterator` | ✓ | ✓ | ✓ | ✓ |
-| `SplitAfterMaxsplitNoEmpty` | ✓ | ✓ | ✓ | ✓ |
-| `SplitBeforeEmptyIterableNoEmpty` | ✓ | ✓ | ✓ | ✓ |
+| Property | hypothesis | crosshair |
+|----------|---------:|--------:|
+| `ExactlyNRejectsNegative` | ✓ | ✓ |
+| `IterateStopsOnStopIteration` | ✓ | ✓ |
+| `LastWithNoneReversed` | ✓ | ✓ |
+| `NumericRangeSliceNegativeStep` | ✓ | ✓ |
+| `NumericRangeReversedHandlesEmpty` | ✓ | ✓ |
+| `ProductIndexAcceptsIterator` | ✓ | ✓ |
+| `SplitAfterMaxsplitNoEmpty` | ✓ | ✓ |
+| `SplitBeforeEmptyIterableNoEmpty` | ✓ | ✓ |
 
 ## Bug Details
 
